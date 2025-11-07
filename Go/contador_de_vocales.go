@@ -1,4 +1,4 @@
-package contador_de_vocales
+package main
 
 import (
 	"bufio"

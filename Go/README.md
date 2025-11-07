@@ -48,6 +48,7 @@ Las pruebas ahora se realizarán con el módulo integrado en Go.
 Desde la terminal, ejecutar:
 
 ```bash
+go mod init contador
 go test
 ```
 

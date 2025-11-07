@@ -1,4 +1,4 @@
-package contador_de_vocales
+package main
 
 import "testing"
 
@@ -12,7 +12,7 @@ func TestCountVowelsSimple(t *testing.T) {
 
 // Test 2
 func TestCountVowelsWithUppercase(t *testing.T) {
-	result := CountVowels("Avión")
+	result := CountVowels("Avion")
 	if result != 3 {
 		t.Errorf("Esperado 3, obtenido %d", result)
 	}
